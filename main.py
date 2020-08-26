@@ -97,7 +97,7 @@ def main():
     dp.add_error_handler(error)
 
     # Start the Bot
-    updater.start_polling()
+    run(updater)
     updater.idle()
 
 
